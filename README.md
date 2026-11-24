@@ -12,6 +12,13 @@ Build a trie of all the words; then DFS from each cell advancing *both* a board 
 
 **Complexity:** O(cells · 4^maxLen) worst case, heavily pruned in practice; trie O(total word chars).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
